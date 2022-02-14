@@ -8,6 +8,7 @@ public class Primes {
             if (isPrime(i) == true)
                 System.out.print(i + " ");
         }
+        System.out.print("\n");
     }
 
     public static boolean isPrime(int n){
